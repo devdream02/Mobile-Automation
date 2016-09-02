@@ -1,0 +1,19 @@
+android: {
+    data_url: 'http://10.10.194.93/index.php?data=',
+    serverIP: 127.0.0.1,
+    handset: htc,
+    port: 4723,
+    status: 1,
+    platformName: Android,
+    browserName: Chrome,
+    appActivity: .ui.splash.SplashActivity,
+    appPackage: au.com.optus.selfservice,
+    app: /Volumes/Personal/Optus/Android/MyOptusAndroid-v3.44-SIT1.apk
+}
+
+ios: {
+    platformName: ios,
+    deviceName: PEIIVSAUTOMATION,
+    udid: 5748b8205b17cdd3c7500e8bb5ef11b1003978d6,
+    app: /Users/asher/Desktop/appium test/My Optus.app
+}
